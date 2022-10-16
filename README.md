@@ -14,23 +14,20 @@ Tasks I completed while studying QA.
 
 ## Testing Web Application <a name="testing_web_app"></a>
 
-**Testing Login form and Password recovery form.**  
+**Testing Login form and Password recovery form of Web Application**  
 
 • Compiling checklists, test cases  
 • Performing tests  
 • Compiling bug reports based on the found bugs  
 • Working in the Atlassian Jira work management system  
 
-[General Task](https://github.com/mentor-dev/QA-Learning/blob/main/Testing_Web_Application/MDT-1_Task.png)  
-[Checklist](https://github.com/mentor-dev/QA-Learning/blob/main/Testing_Web_Application/Checklist/Checklist.png)  
-[Test Cases](https://github.com/mentor-dev/QA-Learning/tree/main/Testing_Web_Application/Test_Cases)  
-[Bug Reports](https://github.com/mentor-dev/QA-Learning/tree/main/Testing_Web_Application/Bug_Reports)  
+[Go to the Test Documentation](https://github.com/mentor-dev/QA-Learning/tree/main/Testing_Web_Application#start)  
 
 
 ## SQL <a name="sql"></a>
 
-**Building queries to SQL database**
+**Building queries to SQL database**  
 
-[SQL queries](https://github.com/mentor-dev/QA-Learning/tree/main/SQL#start)  
+[Go to SQL queries](https://github.com/mentor-dev/QA-Learning/tree/main/SQL#start) (with output results)
 
 
