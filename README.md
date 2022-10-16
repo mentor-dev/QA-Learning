@@ -30,6 +30,6 @@ Tasks I completed while studying QA.
 ## SQL <a name="sql"></a>
 
 Building queries to SQL database  
-[SQL queries](https://github.com/mentor-dev/QA-Learning/tree/main/SQL)  
+[SQL queries](https://github.com/mentor-dev/QA-Learning/tree/main/SQL#start)  
 
 
