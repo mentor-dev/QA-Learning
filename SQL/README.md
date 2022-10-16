@@ -12,7 +12,7 @@ For making this task I used DB Browser for SQLite
 - [2. Display the year of birth of the actress Emma Stone](#sql2)
 - [3. List all movies released in or after 2018 in alphabetical order](#sql3)
 - [4. Display the number of movies with a rating of 10.0](#sql4)
-- [5. Display names of movies with a rating of 10.0](#sql5)
+- [5. Display titles of movies with a rating of 10.0](#sql5)
 - [6. Display a list of all movies about Harry Potter in chronological order](#sql6)
 - [7. Display the average rating of all films of 2012](#sql7)
 - [8. List the names of all actors who played in Toy Story](#sql8)
@@ -53,7 +53,7 @@ FROM ratings
 WHERE rating = 10;
 ```
 
-### 5. Display names of movies with a rating of 10.0 <a name="sql5"></a>
+### 5. Display titles of movies with a rating of 10.0 <a name="sql5"></a>
 ![SQL5](./SQL_05_Display_names_of_movies_with_a_rating_of_10.0.png)
 ```
 SELECT title AS 'Movies with rating 10.0'
