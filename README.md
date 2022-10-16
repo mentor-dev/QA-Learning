@@ -11,6 +11,8 @@ Tasks I completed while studying QA.
 
 ## Testing Web Application <a name = "testing_web_app"></a>
 
+**Testing Login form and Password recovery form.**  
+
 • Compiling checklists, test cases  
 • Performing tests  
 • Compiling bug reports based on the found bugs  
