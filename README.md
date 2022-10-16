@@ -4,12 +4,15 @@
 
 - [About](#about)
 - [Testing Web Application](#testing_web_app)
+- [SQL](#sql)
 
-## About <a name = "about"></a>
+
+## About <a name="about"></a>
 
 Tasks I completed while studying QA.
 
-## Testing Web Application <a name = "testing_web_app"></a>
+
+## Testing Web Application <a name="testing_web_app"></a>
 
 **Testing Login form and Password recovery form.**  
 
@@ -22,4 +25,11 @@ Tasks I completed while studying QA.
 [Checklist](https://github.com/mentor-dev/QA-Learning/blob/main/Testing_Web_Application/Checklist/Checklist.png)  
 [Test Cases](https://github.com/mentor-dev/QA-Learning/tree/main/Testing_Web_Application/Test_Cases)  
 [Bug Reports](https://github.com/mentor-dev/QA-Learning/tree/main/Testing_Web_Application/Bug_Reports)  
+
+
+## SQL <a name="sql"></a>
+
+Building queries to SQL database  
+[SQL queries](https://github.com/mentor-dev/QA-Learning/tree/main/SQL)  
+
 
