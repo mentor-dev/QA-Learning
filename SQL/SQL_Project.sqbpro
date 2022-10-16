@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="D:/Ruslan/QA-Learning/SQL/movies.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="1092"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="4,9:maindirectors"/><default_encoding codec=""/><browse_table_settings/></tab_browse><tab_sql><sql name="SQL 1">/* Display a list of titles of all films of 2010 */
+
+SELECT title AS 'Movies of 2010'
+FROM movies
+WHERE year = 2010;</sql><sql name="SQL 2">/* Display the year of birth of the actress Emma Stone */
+
+SELECT birth AS 'Emma Stone''s year of birth'
+FROM people
+WHERE name = 'Emma Stone';</sql><sql name="SQL 3">/* List all movies released in or after 2018 in alphabetical order */
+
+SELECT title AS 'Movies of 2018 and later'
+FROM movies
+WHERE year &gt;= 2018
+ORDER BY title ASC;</sql><sql name="SQL 4">/* Display the number of movies with a rating of 10.0 */
+
+SELECT COUNT(movie_id) AS 'Number of movies with rating 10.0'
+FROM ratings
+WHERE rating = 10;</sql><sql name="SQL 5">/* Display names of movies with a rating of 10.0 */
+
+SELECT title AS 'Movies with rating 10.0'
+FROM movies
+INNER JOIN ratings 
+ON movies.id = ratings.movie_id
+WHERE rating = 10;</sql><sql name="SQL 6">/* Display a list of all movies about Harry Potter in chronological order */
+
+SELECT title AS 'Movies about Harry Potter'
+FROM movies
+WHERE title LIKE '%Harry Potter%'
+ORDER BY year ASC;</sql><sql name="SQL 7">/* Display the average rating of all films of 2012 */
+
+SELECT AVG (rating) AS 'Average rating of 2012'
+FROM ratings
+JOIN movies
+ON ratings.movie_id = movies.id
+WHERE year = 2012;</sql><sql name="SQL 8">/* List the names of all actors who played in Toy Story */
+
+SELECT name AS 'Actors from &quot;Toy Story&quot;'
+FROM movies
+JOIN stars
+ON movies.id = stars.movie_id
+JOIN people
+ON stars.person_id = people.id
+WHERE title = 'Toy Story';</sql><sql name="SQL 9">/* Output the name and year of birth of the director of Toy Story */
+
+SELECT name AS 'Director of &quot;Toy Story&quot;', birth AS 'Year of birth'
+FROM movies
+JOIN directors
+ON movies.id = directors.movie_id
+JOIN people
+ON directors.person_id = people.id
+WHERE title = 'Toy Story';</sql><sql name="SQL 10">/* Display 5 movies with the highest rating where Brad Pitt played */
+
+SELECT title AS '5 Top rated movies with Brad Pitt'
+FROM movies
+WHERE id IN 
+	(SELECT movie_id
+	from ratings
+	WHERE movie_id IN
+		(SELECT movie_id
+		FROM stars
+		WHERE person_id IN
+			(SELECT id
+			FROM people
+			WHERE name = 'Brad Pitt'))
+	ORDER BY rating DESC
+	LIMIT 5);</sql><sql name="SQL 11">/* Display all movies where Brad Pitt and Angelina Jolie played together */
+
+SELECT title AS 'Movies with Pitt and Jolie'
+FROM movies
+WHERE id IN
+	(SELECT movie_id
+	FROM stars
+	WHERE person_id IN 
+		(SELECT id
+		FROM people
+		WHERE name = 'Brad Pitt' OR name = 'Angelina Jolie')
+	GROUP BY movie_id
+	HAVING COUNT(movie_ID) &gt; 1);</sql><current_tab id="10"/></tab_sql></sqlb_project>
