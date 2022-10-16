@@ -19,5 +19,5 @@ Tasks I completed while studying QA.
 [General Task](https://github.com/mentor-dev/QA-Learning/blob/main/Testing_Web_Application/MDT-1_Task.png)  
 [Checklist](https://github.com/mentor-dev/QA-Learning/blob/main/Testing_Web_Application/Checklist/Checklist.png)  
 [Test Cases](https://github.com/mentor-dev/QA-Learning/tree/main/Testing_Web_Application/Test_Cases)  
-[Bug Reports](https://github.com/mentor-dev/QA-Learning/tree/main/Testing_Web_Application/Bug_Reportss)  
+[Bug Reports](https://github.com/mentor-dev/QA-Learning/tree/main/Testing_Web_Application/Bug_Reports)  
 
