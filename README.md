@@ -1,4 +1,4 @@
-# QA-Learning
+# QA-Learning <a name="start"></a>
 
 ## Table of Contents
 
@@ -29,7 +29,8 @@ Tasks I completed while studying QA.
 
 ## SQL <a name="sql"></a>
 
-Building queries to SQL database  
+**Building queries to SQL database**
+
 [SQL queries](https://github.com/mentor-dev/QA-Learning/tree/main/SQL#start)  
 
 
