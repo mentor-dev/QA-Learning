@@ -5,6 +5,7 @@
 - [About](#about)
 - [Testing Web Application](#testing_web_app)
 - [SQL](#sql)
+- [API Testing](#api)
 
 
 ## About <a name="about"></a>
@@ -31,3 +32,11 @@ Tasks I completed while studying QA.
 [Go to SQL queries](https://github.com/mentor-dev/QA-Learning/tree/main/SQL#start) (with output results)
 
 
+## API Testing <a name="api"></a>
+
+**Executing API requests**  
+
+• Executing API requests by Swagger (<https://petstore.swagger.io>)  
+• Executing API requests by Postman, creating collections, variables, and tests 
+
+[Go to API Testing](https://github.com/mentor-dev/QA-Learning/tree/main/API_Testing#start)
