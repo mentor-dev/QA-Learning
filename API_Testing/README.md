@@ -89,6 +89,7 @@ This task was performed at
 This task was performed by using API [Swagger Petstore](https://petstore.swagger.io).  
 Requests use a variable `url = https://petstore.swagger.io/v2`  
 Postman collection is present [in this repository](./Postman/Swagger_petstore.postman_collection.json).  
+Or [JSON link](https://www.getpostman.com/collections/5e440ad7a638341a533a) to this collection.  
 [Test results](./Postman/Swagger_petstore.postman_test_run.json) are also attending.  
 
 <small>
