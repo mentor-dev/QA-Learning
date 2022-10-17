@@ -1,6 +1,7 @@
 # Building queries to SQL database <a name="start"></a>
 
-For making this task I used DB Browser for SQLite
+For making this task I used DB Browser for SQLite.  
+All queries are presented [in the repository](./Queries/SQL/).
 
 ## DB Schema
 
@@ -172,4 +173,4 @@ WHERE id IN
 ```
 ![SQL11](./Queries/SQL_11_Display_all_movies_where_Brad_Pitt_and_Angelina_Jolie_played_together.png)
 
-<small>[Go back](#queries)</small>
+[Go back](#start)
