@@ -87,6 +87,7 @@ This task was performed at
 ## Postman <a name = "postman"></a>
 
 This task was performed by using API [Swagger Petstore](https://petstore.swagger.io).  
+Requests use a variable `url = https://petstore.swagger.io/v2`  
 
 <small>
 
