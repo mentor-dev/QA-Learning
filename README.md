@@ -15,7 +15,7 @@ Tasks I completed while studying QA.
 
 ## Testing Web Application <a name="testing_web_app"></a>
 
-**Testing Login form and Password recovery form of Web Application**  
+**<ins>Testing Login form and Password recovery form of Web Application</ins>**  
 
 • Compiling checklists, test cases  
 • Performing tests  
@@ -27,7 +27,7 @@ Tasks I completed while studying QA.
 
 ## API Testing <a name="api"></a>
 
-**Executing API requests**  
+**<ins>Executing API requests</ins>**  
 
 • Executing API requests by Swagger (<https://petstore.swagger.io>)  
 • Executing API requests by Postman, creating collections, variables, and tests 
@@ -37,6 +37,6 @@ Tasks I completed while studying QA.
 
 ## SQL <a name="sql"></a>
 
-**Building queries to SQL database**  
+**<ins>Building queries to SQL database</ins>**  
 
 [Go to SQL queries](https://github.com/mentor-dev/QA-Learning/tree/main/SQL#start) (with output results)
