@@ -9,17 +9,17 @@ All queries are presented [in the repository](./Queries/SQL/).
 
 ## Queries (with output result) <a name="queries"></a>
 
-• [1. Display a list of titles of all films of 2010](#sql1)
-• [2. Display the year of birth of the actress Emma Stone](#sql2)
-• [3. List all movies released in or after 2018 in alphabetical order](#sql3)
-• [4. Display the number of movies with a rating of 10.0](#sql4)
-• [5. Display titles of movies with a rating of 10.0](#sql5)
-• [6. Display a list of all movies about Harry Potter in chronological order](#sql6)
-• [7. Display the average rating of all films of 2012](#sql7)
-• [8. List the names of all actors who played in Toy Story](#sql8)
-• [9. Output the name and year of birth of the director of Toy Story](#sql9)
-• [10. Display 5 movies with the highest rating where Brad Pitt played](#sql10)
-• [11. Display all movies where Brad Pitt and Angelina Jolie played together](#sql11)
+• [1. Display a list of titles of all films of 2010](#sql1)  
+• [2. Display the year of birth of the actress Emma Stone](#sql2)  
+• [3. List all movies released in or after 2018 in alphabetical order](#sql3)  
+• [4. Display the number of movies with a rating of 10.0](#sql4)  
+• [5. Display titles of movies with a rating of 10.0](#sql5)  
+• [6. Display a list of all movies about Harry Potter in chronological order](#sql6)  
+• [7. Display the average rating of all films of 2012](#sql7)  
+• [8. List the names of all actors who played in Toy Story](#sql8)  
+• [9. Output the name and year of birth of the director of Toy Story](#sql9)  
+• [10. Display 5 movies with the highest rating where Brad Pitt played](#sql10)  
+• [11. Display all movies where Brad Pitt and Angelina Jolie played together](#sql11)  
 
 ### 1. Display a list of titles of all films of 2010 <a name="sql1"></a>
 
