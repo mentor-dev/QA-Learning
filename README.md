@@ -22,21 +22,21 @@ Tasks I completed while studying QA.
 • Compiling bug reports based on the found bugs  
 • Working in the Atlassian Jira work management system  
 
-[Go to the Test Documentation](https://github.com/mentor-dev/QA-Learning/tree/main/Testing_Web_Application#start)  
+➡️ [Go to the Test Documentation](https://github.com/mentor-dev/QA-Learning/tree/main/Testing_Web_Application#start)  
 
 
 ## API Testing <a name="api"></a>
 
 **<ins>Executing API requests</ins>**  
 
-• Executing API requests by Swagger (<https://petstore.swagger.io>)  
+• Executing API requests by Swagger  
 • Executing API requests by Postman, creating collections, variables, and tests 
 
-[Go to API Testing](https://github.com/mentor-dev/QA-Learning/tree/main/API_Testing#start)
+➡️ [Go to API Testing](https://github.com/mentor-dev/QA-Learning/tree/main/API_Testing#start)
 
 
 ## SQL <a name="sql"></a>
 
 **<ins>Building queries to SQL database</ins>**  
 
-[Go to SQL queries](https://github.com/mentor-dev/QA-Learning/tree/main/SQL#start) (with output results)
+➡️ [Go to SQL queries](https://github.com/mentor-dev/QA-Learning/tree/main/SQL#start) (with output results)
