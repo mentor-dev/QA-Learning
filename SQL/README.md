@@ -173,4 +173,4 @@ WHERE id IN
 ```
 ![SQL11](./Queries/SQL_11_Display_all_movies_where_Brad_Pitt_and_Angelina_Jolie_played_together.png)
 
-[⬆️ Go up](#start)
+[⬆️ Go to top](#start)

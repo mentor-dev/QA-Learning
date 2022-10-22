@@ -80,7 +80,7 @@ This task was performed at
 <a name="s11"></a> Request #11 - Delete purchase order by ID  
 ![s11](./Swagger/11_Swagger_Delete_purchase_order_by_ID.png)  
 
-[⬆️ Go up](#start)
+[⬆️ Go to top](#start)
 
 ---
 
@@ -161,5 +161,5 @@ Or [JSON link](https://www.getpostman.com/collections/5e440ad7a638341a533a) to t
 <a name="p11"></a> Request #11 - Delete purchase order by ID  
 ![p11](./Postman/11_Postman_Delete_purchase_order_by_ID.png)  
 
-[⬆️ Go up](#start)
+[⬆️ Go to top](#start)
 

@@ -22,14 +22,14 @@
 
 ![Main task](./MDT-1_Task.png)
 
-[⬆️ Go up](#start)
+[⬆️ Go to top](#start)
 
 
 ## Checklist <a name="checklist"></a>
 
 ![Checklist](./Checklist/Checklist.png)
 
-[⬆️ Go up](#start)
+[⬆️ Go to top](#start)
 
 
 ## Test Cases <a name="test_cases"></a>
@@ -170,7 +170,7 @@
 
 <a name="mdt35">![Test Case MDT-35](./Test_Cases/MDT-35_TC_Checking_the_login_with_an_Email_with_trailing_spaces.png)</a>
 
-[⬆️ Go up](#start)
+[⬆️ Go to top](#start)
 
 
 ## Bug Reports <a name="bug_reports"></a>
@@ -219,4 +219,4 @@
 
 <a name="mdt45">![Bug Report MDT-45](./Bug_Reports/MDT-45_BR_The_content_of_the_main_menu_page_is_not_fully_loaded.png)</a>
 
-[⬆️ Go up](#start)
+[⬆️ Go to top](#start)
