@@ -170,7 +170,7 @@ Or [JSON link](https://www.getpostman.com/collections/5e440ad7a638341a533a) to t
 ## JMeter <a name = "jmeter"></a>
 
 This task was performed by using API [Swagger Petstore](https://petstore.swagger.io).  
-JMeter Test Plan is present [in this repository](./JMeter/Petstore.jmx). 
+Created JMeter Test Plan is present [in this repository](./JMeter/Petstore.jmx). 
 
 <small>
 
@@ -223,7 +223,7 @@ No problems with that.
 <small>[🔙 Go back](#jmeter)</small>
 
 <a name="jm_thread_03"></a> Let's add some users. Petstore, sorry, I'll do it quickly.  
-Set Thread Group properties (100 users, 10 iterations):  
+Set Thread Group properties (100 users, 15 iterations):  
 ![Thread Group properties](./JMeter/JMeter_Thread_03.png)  
 <small>[🔙 Go back](#jmeter)</small>
 
