@@ -2,10 +2,10 @@
 
 ## Table of Contents
 
-- [About](#about)
-- [Testing Web Application (Checklist, Test cases, Bug reports)](#testing_web_app)
-- [API Testing (Swagger, Postman, JMeter)](#api)
-- [SQL (SQLite)](#sql)
+- [**About**](#about)
+- [**Testing Web Application** (Checklist, Test cases, Bug reports)](#testing_web_app)
+- [**API Testing** (Swagger, Postman, JMeter)](#api)
+- [**SQL** (SQLite)](#sql)
 
 
 ## About <a name="about"></a>
@@ -31,7 +31,7 @@ Tasks I completed while studying QA.
 
 • Executing API requests by ***Swagger***  
 • Executing API requests by ***Postman***, creating collections, variables, and tests  
-• Executing API requests by ***JMeter***, execution of load tests   
+• Executing API requests by ***JMeter***, run load tests   
 
 [➡️ Go to API Testing](https://github.com/mentor-dev/QA-Learning/tree/main/API_Testing#start)
 
