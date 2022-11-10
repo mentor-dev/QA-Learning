@@ -3,9 +3,9 @@
 ## Table of Contents
 
 - [About](#about)
-- [Testing Web Application](#testing_web_app)
-- [API Testing](#api)
-- [SQL](#sql)
+- [Testing Web Application (Checklist, Test cases, Bug reports)](#testing_web_app)
+- [API Testing (Swagger, Postman, JMeter)](#api)
+- [SQL (SQLite)](#sql)
 
 
 ## About <a name="about"></a>

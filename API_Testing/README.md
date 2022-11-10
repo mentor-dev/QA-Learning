@@ -5,6 +5,7 @@
 - [About](#about)
 - [Swagger](#swagger)
 - [Postman](#postman)
+- [JMeter](#jmeter)
 
 
 ## About <a name = "about"></a>
@@ -12,7 +13,8 @@
 **Executing API requests**  
 
 • Executing API requests by ***Swagger*** (<https://petstore.swagger.io>)  
-• Executing API requests by ***Postman***, creating collections, variables, and tests
+• Executing API requests by ***Postman***, creating collections, variables, and tests  
+• Executing API requests by ***JMeter***, execution of load tests   
 
 
 ## Swagger <a name = "swagger"></a>
@@ -87,14 +89,14 @@ This task was performed at
 ## Postman <a name = "postman"></a>
 
 This task was performed by using API [Swagger Petstore](https://petstore.swagger.io).  
-Requests use a variable `url = https://petstore.swagger.io/v2`  
+All the requests use a variable `url = https://petstore.swagger.io/v2`.  
 Postman collection is present [in this repository](./Postman/Swagger_petstore.postman_collection.json). 
 Or [JSON link](https://www.getpostman.com/collections/5e440ad7a638341a533a) to this collection.  
 [Test results](./Postman/Swagger_petstore.postman_test_run.json) are also attending.  
 
 <small>
 
-• [Created collection](#p_collection_)  
+• [Created collection](#p_collection)  
 • [Collection's run results](#p_results)  
 • [Request #1 - Add a new pet to the store](#p1)  
 • [Request #2 - Find pet by ID](#p2)  
@@ -110,7 +112,7 @@ Or [JSON link](https://www.getpostman.com/collections/5e440ad7a638341a533a) to t
 
 </small>
 
-<a name="p_collection_"></a> In Postman was created a collection  
+<a name="p_collection"></a> In Postman was created a collection  
 ![Swagger Petstore Collection](./Postman/Swagger_Petstore_collection.png)  
 <small>[🔙 Go back](#postman)</small>
 
@@ -163,3 +165,75 @@ Or [JSON link](https://www.getpostman.com/collections/5e440ad7a638341a533a) to t
 
 [⬆️ Go to top](#start)
 
+---
+
+## JMeter <a name = "jmeter"></a>
+
+This task was performed by using API [Swagger Petstore](https://petstore.swagger.io).  
+JMeter Test Plan is present [in this repository](./JMeter/Petstore.jmx). 
+
+<small>
+
+• [Created Test Plan](#jm_test_plan_01)  
+• [Set Thread Group properties (1 user)](#jm_thread_01)  
+• [Summary report](#jm_results_01)  
+• [Aggregate graph](#jm_results_02)  
+• [Load tests](#jm_test_plan_02)  
+• [Set Thread Group properties (5 users)](#jm_thread_02)  
+• [Summary report](#jm_results_03)  
+• [Graph results](#jm_results_04)  
+• [Set Thread Group properties (100 users)](#jm_thread_03)  
+• [Summary report](#jm_results_05)  
+• [Graph results](#jm_results_06)  
+
+</small>
+
+<a name="jm_test_plan_01"></a> In JMeter was created a test plan with several requests and listeners.  
+The timer has been added in order not to load the site much.  
+![JMeter Test Plan](./JMeter/JMeter_Petstore_Test_Plan_01.png)  
+<small>[🔙 Go back](#jmeter)</small>
+
+<a name="jm_thread_01"></a> Set Thread Group properties (1 user):  
+![Run results](./JMeter/JMeter_Thread_01.png)  
+<small>[🔙 Go back](#jmeter)</small>
+
+<a name="jm_results_01"></a> Summary report:  
+![Run results](./JMeter/JMeter_results_01.png)  
+<small>[🔙 Go back](#jmeter)</small>
+
+<a name="jm_results_02"></a> Aggregate graph - time of requests:  
+![Run results](./JMeter/JMeter_results_02.png)  
+<small>[🔙 Go back](#jmeter)</small>
+
+<a name="jm_test_plan_02"></a> Let's run some load tests. I left only one request:  
+![Run results](./JMeter/JMeter_Petstore_Test_Plan_02.png)  
+<small>[🔙 Go back](#jmeter)</small>
+
+<a name="jm_thread_02"></a> Set Thread Group properties (5 users, 100 iterations):  
+![Run results](./JMeter/JMeter_Thread_02.png)  
+<small>[🔙 Go back](#jmeter)</small>
+
+<a name="jm_results_03"></a> Summary report:  
+![Run results](./JMeter/JMeter_results_03.png)  
+<small>[🔙 Go back](#jmeter)</small>
+
+<a name="jm_results_04"></a> Graph results:  
+![Run results](./JMeter/JMeter_results_04.png)  
+No problems with that.  
+<small>[🔙 Go back](#jmeter)</small>
+
+<a name="jm_thread_03"></a> Let's add some users. Petstore, sorry, I'll do it quickly.  
+Set Thread Group properties (100 users, 10 iterations):  
+![Run results](./JMeter/JMeter_Thread_03.png)  
+<small>[🔙 Go back](#jmeter)</small>
+
+<a name="jm_results_05"></a> Summary report:  
+![Run results](./JMeter/JMeter_results_05.png)  
+<small>[🔙 Go back](#jmeter)</small>
+
+<a name="jm_results_06"></a> Graph results:  
+![Run results](./JMeter/JMeter_results_06.png)  
+
+With a hundred users, Petstore had some difficulties with request processing.
+
+[⬆️ Go to top](#start)
