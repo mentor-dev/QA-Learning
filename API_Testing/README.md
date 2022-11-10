@@ -194,45 +194,45 @@ The timer has been added in order not to load the site much.
 <small>[🔙 Go back](#jmeter)</small>
 
 <a name="jm_thread_01"></a> Set Thread Group properties (1 user):  
-![Run results](./JMeter/JMeter_Thread_01.png)  
+![Thread Group properties](./JMeter/JMeter_Thread_01.png)  
 <small>[🔙 Go back](#jmeter)</small>
 
 <a name="jm_results_01"></a> Summary report:  
-![Run results](./JMeter/JMeter_results_01.png)  
+![Run results](./JMeter/JMeter_Results_01.png)  
 <small>[🔙 Go back](#jmeter)</small>
 
 <a name="jm_results_02"></a> Aggregate graph - time of requests:  
-![Run results](./JMeter/JMeter_results_02.png)  
+![Run results](./JMeter/JMeter_Results_02.png)  
 <small>[🔙 Go back](#jmeter)</small>
 
 <a name="jm_test_plan_02"></a> Let's run some load tests. I left only one request:  
-![Run results](./JMeter/JMeter_Petstore_Test_Plan_02.png)  
+![JMeter Test Plan](./JMeter/JMeter_Petstore_Test_Plan_02.png)  
 <small>[🔙 Go back](#jmeter)</small>
 
 <a name="jm_thread_02"></a> Set Thread Group properties (5 users, 100 iterations):  
-![Run results](./JMeter/JMeter_Thread_02.png)  
+![Thread Group properties](./JMeter/JMeter_Thread_02.png)  
 <small>[🔙 Go back](#jmeter)</small>
 
 <a name="jm_results_03"></a> Summary report:  
-![Run results](./JMeter/JMeter_results_03.png)  
+![Run results](./JMeter/JMeter_Results_03.png)  
 <small>[🔙 Go back](#jmeter)</small>
 
 <a name="jm_results_04"></a> Graph results:  
-![Run results](./JMeter/JMeter_results_04.png)  
+![Run results](./JMeter/JMeter_Results_04.png)  
 No problems with that.  
 <small>[🔙 Go back](#jmeter)</small>
 
 <a name="jm_thread_03"></a> Let's add some users. Petstore, sorry, I'll do it quickly.  
 Set Thread Group properties (100 users, 10 iterations):  
-![Run results](./JMeter/JMeter_Thread_03.png)  
+![Thread Group properties](./JMeter/JMeter_Thread_03.png)  
 <small>[🔙 Go back](#jmeter)</small>
 
 <a name="jm_results_05"></a> Summary report:  
-![Run results](./JMeter/JMeter_results_05.png)  
+![Run results](./JMeter/JMeter_Results_05.png)  
 <small>[🔙 Go back](#jmeter)</small>
 
 <a name="jm_results_06"></a> Graph results:  
-![Run results](./JMeter/JMeter_results_06.png)  
+![Run results](./JMeter/JMeter_Results_06.png)  
 
 With a hundred users, Petstore had some difficulties with request processing.
 

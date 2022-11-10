@@ -30,7 +30,8 @@ Tasks I completed while studying QA.
 **<ins>Executing API requests</ins>**  
 
 • Executing API requests by ***Swagger***  
-• Executing API requests by ***Postman***, creating collections, variables, and tests 
+• Executing API requests by ***Postman***, creating collections, variables, and tests  
+• Executing API requests by ***JMeter***, execution of load tests   
 
 [➡️ Go to API Testing](https://github.com/mentor-dev/QA-Learning/tree/main/API_Testing#start)
 
