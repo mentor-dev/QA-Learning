@@ -21,7 +21,8 @@ All queries are presented [in the repository](./Queries/SQL/).
 • [10. Display 5 movies with the highest rating where Brad Pitt played](#sql10)  
 • [11. Display all movies where Brad Pitt and Angelina Jolie played together](#sql11)  
 
-### 1. Display a list of titles of all films of 2010 <a name="sql1"></a>
+
+### <a name="sql1"></a> 1. Display a list of titles of all films of 2010 
 
 ```
 SELECT title AS 'Movies of 2010'
@@ -32,7 +33,7 @@ WHERE year = 2010;
 
 <small>[🔙 Go back](#queries)</small>
 
-### 2. Display the year of birth of the actress Emma Stone <a name="sql2"></a>
+### <a name="sql2"></a> 2. Display the year of birth of the actress Emma Stone
 
 ```
 SELECT birth AS 'Emma Stone''s year of birth'
@@ -43,7 +44,7 @@ WHERE name = 'Emma Stone';
 
 <small>[🔙 Go back](#queries)</small>
 
-### 3. List all movies released in or after 2018 in alphabetical order <a name="sql3"></a>
+### <a name="sql3"></a> 3. List all movies released in or after 2018 in alphabetical order
 
 ```
 SELECT title AS 'Movies of 2018 and later'
@@ -55,7 +56,7 @@ ORDER BY title ASC;
 
 <small>[🔙 Go back](#queries)</small>
 
-### 4. Display the number of movies with a rating of 10.0 <a name="sql4"></a>
+### <a name="sql4"></a> 4. Display the number of movies with a rating of 10.0
 
 ```
 SELECT COUNT(movie_id) AS 'Number of movies with rating 10.0'
@@ -66,7 +67,7 @@ WHERE rating = 10;
 
 <small>[🔙 Go back](#queries)</small>
 
-### 5. Display titles of movies with a rating of 10.0 <a name="sql5"></a>
+### <a name="sql5"></a> 5. Display titles of movies with a rating of 10.0
 
 ```
 SELECT title AS 'Movies with rating 10.0'
@@ -79,7 +80,7 @@ WHERE rating = 10;
 
 <small>[🔙 Go back](#queries)</small>
 
-### 6. Display a list of all movies about Harry Potter in chronological order <a name="sql6"></a>
+### <a name="sql6"></a> 6. Display a list of all movies about Harry Potter in chronological order
 
 ```
 SELECT title AS 'Movies about Harry Potter'
@@ -91,7 +92,7 @@ ORDER BY year ASC;
 
 <small>[🔙 Go back](#queries)</small>
 
-### 7. Display the average rating of all films of 2012 <a name="sql7"></a>
+### <a name="sql7"></a> 7. Display the average rating of all films of 2012
 
 ```
 SELECT AVG (rating) AS 'Average rating of 2012'
@@ -104,7 +105,7 @@ WHERE year = 2012;
 
 <small>[🔙 Go back](#queries)</small>
 
-### 8. List the names of all actors who played in Toy Story <a name="sql8"></a>
+### <a name="sql8"></a> 8. List the names of all actors who played in Toy Story
 
 ```
 SELECT name AS 'Actors from "Toy Story"'
@@ -119,7 +120,7 @@ WHERE title = 'Toy Story';
 
 <small>[🔙 Go back](#queries)</small>
 
-### 9. Output the name and year of birth of the director of Toy Story <a name="sql9"></a>
+### <a name="sql9"></a> 9. Output the name and year of birth of the director of Toy Story
 
 ```
 SELECT name AS 'Director of "Toy Story"', birth AS 'Year of birth'
@@ -134,7 +135,7 @@ WHERE title = 'Toy Story';
 
 <small>[🔙 Go back](#queries)</small>
 
-### 10. Display 5 movies with the highest rating where Brad Pitt played <a name="sql10"></a>
+### <a name="sql10"></a> 10. Display 5 movies with the highest rating where Brad Pitt played
 
 ```
 SELECT title AS '5 Top rated movies with Brad Pitt'
@@ -156,7 +157,7 @@ WHERE id IN
 
 <small>[🔙 Go back](#queries)</small>
 
-### 11. Display all movies where Brad Pitt and Angelina Jolie played together <a name="sql11"></a>
+### <a name="sql11"></a> 11. Display all movies where Brad Pitt and Angelina Jolie played together
 
 ```
 SELECT title AS 'Movies with Pitt and Jolie'
